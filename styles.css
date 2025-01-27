@@ -1,5 +1,5 @@
 body {
-    background-color: #221a32;
+    background-color: #1d1f4b;
 }
 
 h1 {
@@ -15,7 +15,7 @@ h1 {
 }
 
 .sidebar nav ul {
-    margin-top: 20px;
+    margin-top: 10px;
     padding: 0 20px 10px 20px;
 }
 
@@ -32,13 +32,24 @@ h1 {
 }
 
 .sidebar_navigation {
-    background-color: #2b2453;
+    background-color: #2d3060;
     border-radius: 8px;
     padding: 16px 0 0 16px;
 }
 
+.sidebar_biblioteca {
+    margin-top: 10px;
+    background-color: #2d3060;
+    border-radius: 8px;
+    padding: 5px;
+}
+.sidebar_biblioteca .fa-plus {
+    position: absolute;
+    right: 35px;
+}
+
 .sidebar_navigation .logo {
-    background: #2b2453;
+    background: #2d3060;
     display: flex;
     border-radius: 8px;
     padding: 16px 0 0 16px;
