@@ -21,6 +21,11 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 100%;
+}
+
+.header_navigation .navigation .arrows {
+    display: flex;
 }
 
 .header_navigation .navigation .arrow-left {
@@ -75,10 +80,11 @@
 }
 
 .header_login .subscribe {
-    color: #a7a7a7;
+    color: var(--color-gray);
     font-size: 16px;
     font-weight: 700;
     background-color: transparent;
+    border: none;
     margin-right: 32px;
 }
 
