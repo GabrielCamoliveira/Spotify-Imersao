@@ -2,13 +2,11 @@ body {
     background-color: #1d1f4b;
     text-decoration: none;
     font-weight: 600;
-    font-family: "Open Sans", sans-serif;
-    font-style: normal;
-    font-variation-settings: "wdth" 100;
+    font-family: var(--font-open-sans);
 }
 
 h1 {
-    color: #ffffff;
+    color: var(--color-white);
 }
 
 
@@ -28,21 +26,19 @@ h1 {
     padding: 10px 0;
 }
 .sidebar nav ul li a {
-    color: #ffffff;
+    color: var(--color-gray);
     text-decoration: none;
     font-weight: 600;
     font-size: 14px;
-    font-family: "Open Sans", sans-serif;
 }
 
 
 .sidebar_navigation {
-    background-color: #2d3060;
+    background-color: var(--color-background-2);
     border-radius: 8px;
     padding: 16px 0 0 16px;
 }
 .sidebar_navigation .logo {
-    background: #2d3060;
     display: flex;
     border-radius: 8px;
     padding: 16px 0 0 16px;
@@ -54,13 +50,13 @@ h1 {
 
 .biblioteca {
     margin-top: 10px;
-    background-color: #2d3060;
+    background-color: var(--color-background-2);
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     padding: 4px 8px;
-    color: #ffffff;
+    color: var(--color-white);
     font-weight: 600;
     font-size: 14px;
 }
@@ -70,7 +66,7 @@ h1 {
 }
 .biblioteca .biblioteca_button {
     margin-right: 10px;
-    color: #ffffff;
+    color: var(--color-white);
     background: transparent;
     border: none;
     font-size: 14px;
@@ -96,8 +92,7 @@ h1 {
     align-items: flex-start;
     justify-content: space-between;
     gap: 20px;
-    background-color: #444776;
-    color: #ffffff;
+    background-color: var(--color-background-3);
     font-weight: 600;
     font-size: 14px;
     margin: 8px 0px;
@@ -111,7 +106,6 @@ h1 {
 
 .sectionPlaylist_content .text {
     padding-bottom: 14px;
-    color: #ffffff;
 }
 .sectionPlaylist_content .title {
     font-weight: 700;
@@ -123,8 +117,8 @@ h1 {
 .sectionPlaylist_content .sectionPlaylist_button {
     display: flex;
     justify-content: center;
-    background-color: #ffffff;
-    color: #000000;
+    background-color: var(--color-white);
+    color: var(--color-black);
     border-radius: 20px;
     font-size: 12px;
     font-weight: 700;
@@ -140,7 +134,7 @@ h1 {
     margin: 25px 20px;
 }
 .sidebar .cookies a {
-    color: #ffffff;
+    color: var(--color-white);
     font-weight: 500;
     font-size: 10px;
     text-decoration: none;
@@ -154,7 +148,7 @@ h1 {
     align-items: center;
     background-color: transparent;
     border: 1px solid #ffffff;
-    color: #ffffff;
+    color: var(--color-white);
     font-weight: bold;
     cursor: pointer;
     width: 170px;
@@ -176,24 +170,24 @@ h1 {
 .footer-premium .text {
    flex-shrink: 0;
 }
-.footer-premium .footer-premium__title {
-    color: #ffffff;
+.footer-premium .footer-premium_title {
+    color: var(--color-white);
     text-transform: uppercase;
     font-weight: 400;
     font-size: 12px;
     margin-bottom: 10px;
 }
 
-.footer-premium .footer-premium__subtitle {
-    color: #ffffff;
+.footer-premium .footer-premium_subtitle {
+    color: var(--color-white);
     font-size: 14px;
     font-weight: 500;
     margin-bottom: 8px;
 }
 
 .footer-premium button {
-    background-color: #ffffff;
-    color: #000000;
+    background-color: var(--color-white);
+    color: var(--color-black);
     font-size: 16px;
     font-weight: bold;
     padding: 14px 30px;
