@@ -162,3 +162,43 @@ h1 {
     padding: 8px;
     border-radius: 5px;
 }
+
+.footer-premium {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, #fe8e2a, #e54a3b);
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-premium .text {
+   flex-shrink: 0;
+}
+.footer-premium .footer-premium__title {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.footer-premium .footer-premium__subtitle {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.footer-premium button {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 30px;
+    border: 0px;
+    border-radius: 40px;
+    cursor: pointer;
+    flex-shrink: 0;
+}
